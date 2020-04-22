@@ -13,6 +13,19 @@
 }
 
 @media only screen and (max-width: 700px) {
+  header .mountain {
+    width: 90%;
+  }
+
+  header .cloud.top-cloud {
+    top: 5px;
+    right: 5%;
+  }
+
+  header .cloud.bottom-cloud {
+    bottom: 160px;
+    left: 5%;
+  }
 
   main section.profile p,
   main section.contact-me p {
@@ -24,7 +37,6 @@
   }
 
   main section.skills div.skill-row img {
-    /* flex-direction: column; */
     display: none;
   }
 }

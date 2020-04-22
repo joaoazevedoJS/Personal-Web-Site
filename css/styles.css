@@ -25,9 +25,7 @@ a {
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 450%;
-  margin: 105px 0 40px 0;
 }
-
 
 h1, h2 {
   color: #66BFBF;
@@ -52,27 +50,36 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  min-height: 100vh;
+  height: 100%;
 
   background-color: #E4F9F5;
-  padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
+
   padding: 0 10px;
   position: relative;
 }
 
-header h2 {
+header div.header-title {
+  padding-top: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+header div.header-title h1 {
+  padding-bottom: 35px;
+  margin-top: 50px;
+}
+
+header div.header-title h2 {
   font-weight: 400;
 }
 
 header .mountain {
   width: 600px;
   height: auto;
-
   user-select: none;
   opacity: 0.8;
-  /* width: 150%;  celular*/
-
   margin-top: auto;
 }
 
@@ -91,6 +98,7 @@ header .cloud.top-cloud {
 
 header .cloud.bottom-cloud {
   left: 15%;
+  bottom: 45%;
 }
 
 /* Main */
@@ -130,7 +138,7 @@ main section.profile img.photo-profile {
 }
 
 main section.profile p {
-  width: 45%;
+  width: 550px;
 }
 
 main section.skills div.skill-row  {
