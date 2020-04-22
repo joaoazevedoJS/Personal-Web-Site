@@ -1,0 +1,58 @@
+@media only screen and (max-width: 900px) {
+  main section.profile p {
+    width: 70%;
+  }
+
+  main section.skills div.skill-row  {
+    width: 100%;
+  }
+
+  main section.skills div.skill-row img {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  main section.profile p,
+  main section.contact-me p {
+    width: 80%;
+  }
+
+  main section.skills div.skill-row h3 {
+    text-align: center;
+  }
+
+  main section.skills div.skill-row img {
+    /* flex-direction: column; */
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  /* Title */
+  h1 {
+    text-align: center;
+    line-height: 1;
+  }
+
+  /* Main */
+  main hr {
+    margin: 45px auto;
+    width: 15%;
+  }
+
+  main section.profile p,
+  main section.contact-me p {
+    width: 95%;
+  }
+
+  main section.skills div.skill-row div.info {
+    margin: 5px;
+  }
+
+  /* Footer */
+  footer a.footer-link {
+    padding: 0 5px;
+  }
+}
